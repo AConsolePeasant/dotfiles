@@ -1,5 +1,4 @@
 command=/usr/share/i3blocks/$BLOCK_NAME
-#command=/home/acp/.config/i3blocks/blocks/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
@@ -20,7 +19,7 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=/:
+label=HDD:
 #instance=/mnt/data
 interval=30
 
