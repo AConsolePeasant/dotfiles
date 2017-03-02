@@ -8,9 +8,9 @@ using i3 and i3blocks
 ## Lazy folder linking
 The contents of the blocks folder goes into /usr/share/i3blocks/
 
-The contents of i3 folder to /home/<user>/.i3/
+The contents of i3 folder to /home/\<user>/.i3/
 
-The contents of the config folder go into /home/<user>/.config/
+The contents of the config folder go into /home/\<user>/.config/
 
 
 ## Requirements
