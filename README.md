@@ -4,6 +4,7 @@ My dotfiles from my laptop, running Debian testing.
 
 using i3 and i3blocks
 
+![](http://i.imgur.com/D2CYXPS.png)
 
 ## Lazy folder linking
 The contents of the blocks folder goes into /usr/share/i3blocks/
