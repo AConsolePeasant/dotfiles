@@ -8,7 +8,6 @@ using i3 and i3blocks
 
 ![](https://i.imgur.com/NR0SUn8.png)
 
-Looks grey on my laptop monitor.
 
 ## Lazy folder linking
 The contents of the blocks folder goes into /usr/share/i3blocks/
