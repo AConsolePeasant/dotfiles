@@ -14,7 +14,6 @@ label=
 separator=false
 interval=30
 
-
 [disk]
 label=
 interval=30
@@ -52,10 +51,11 @@ interval=10
 separator=true
 
 [battery]
-label=⚡
+command=/usr/share/i3blocks/battery
+markup=pango
 interval=30
 
 [time]
-command=date +"%H:%M"
+command=date +"%l:%M"
 interval=5
 label=
