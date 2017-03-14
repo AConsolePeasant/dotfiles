@@ -48,13 +48,13 @@ Custom fish to make it run a 50:50 chance of either a quote from hackers, or Sha
 
 ## Folder Linking
 
-Because I'm too lazy to do something with "ln", I'll just copy files over manually.
+Because I'm too lazy to do something with `ln`, I'll just copy files over manually.
 
-Contents of the 'blocks' folder goes into /user/share/i3blocks
+Contents of the `blocks` folder goes into `/user/share/i3blocks`
 
-Contents of the 'i3' folder goes into /home/user/.i3/
+Contents of the `i3` folder goes into `/home/user/.i3/`
 
-Contents of the 'config' folder go into /home/user/.config/
+Contents of the `config` folder go into `/home/user/.config/`
 
 ## Requirements
 
