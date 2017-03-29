@@ -35,9 +35,11 @@ Active blocks:
 
 * 12hour time
 
-### fish stuffs
+### zsh stuffs
 
-Custom fish to make it run a 50:50 chance of either a quote from hackers, or ShaggyTwoDope's quotes from #linuxmasterrace
+Custom zsh to make it run a 50:50 chance of either a quote from hackers, or ShaggyTwoDope's quotes from #linuxmasterrace
+
+Default boring theme, until I can find something better, with the plugins to add some basic functionality and make it seem more like fish :)
 
 ## Screenshots
 
@@ -56,6 +58,8 @@ Contents of the `i3` folder goes into `/home/user/.i3/`
 
 Contents of the `config` folder go into `/home/user/.config/`
 
+.zshrc just stays in ~
+
 ## Requirements
 
 
@@ -65,3 +69,4 @@ Contents of the `config` folder go into `/home/user/.config/`
 
 i3 and i3blocks
 
+zsh-syntax-highlighting, zsh-autosuggestions (Downloaded from gitpage, into .oh-my-zsh/plugins)
