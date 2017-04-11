@@ -1,5 +1,5 @@
 # transparency - true or false (default)
-URxvt*transparent: true
+URxvt*transparent: false
 
 # shading - 0 to 99 darkens, 101 to 200 lightens.
 #   Don't use with tintColor; just use a darker or lighter color instead.
@@ -23,7 +23,5 @@ URxvt*scrollBar: false
 
 # Clickable URLS
 URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/firefox
+URxvt.url-launcher: /usr/bin/chromium
 URxvt.matcher.button: 1
-
-rofi.opacity: 85
