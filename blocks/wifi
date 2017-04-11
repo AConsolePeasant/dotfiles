@@ -16,7 +16,7 @@
 
 #------------------------------------------------------------------------
 
-INTERFACE="${BLOCK_INSTANCE:-wlan0}"
+INTERFACE="wlp1s0"
 
 #------------------------------------------------------------------------
 
@@ -29,10 +29,11 @@ INTERFACE="${BLOCK_INSTANCE:-wlan0}"
 
 QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
 
+SSID=$(/sbin/iwgetid -r)
 #------------------------------------------------------------------------
 
-echo $QUALITY% # full text
-echo $QUALITY% # short text
+echo $SSID # full text
+echo $SSID # short text
 
 # color
 if [[ $QUALITY -ge 80 ]]; then
