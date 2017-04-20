@@ -2,12 +2,20 @@ command=/usr/share/i3blocks/$BLOCK_NAME
 separator_block_width=10
 markup=none
 
+[vultrbal]
+interval=600
+label=
+
 [weather]
 interval=300
 
 [sound]
 interval=once
 signal=1
+
+[brightness]
+label=
+interval=5
 
 [memory]
 label=
@@ -23,22 +31,12 @@ label=
 interval=10
 separator=false
 
-[ssid]
-interval=10
-separator=false
-color=#00FF00
-
-[iface]
-instance=wlp1s0
-color=#00FF00
-interval=10
-separator=false
-
 [bandwidth]
 label=
 command=/usr/share/i3blocks/bandwidth -w 307200:30720 -c 512000:51200
 interval=persist
 markup=pango
+min_width=I 1234 GB/s 1234 GB/s   
 
 [cpu]
 label=
