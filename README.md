@@ -1,6 +1,7 @@
 # My Dotfiles
 
-These are my dotfiles from my laptop, It might have some personal details, plz no steal thanks. Default home directory is /home/acp, you might have to replace some settings if anyone ever wants to use this.
+
+If for some strange fucking reason someone else wants to use this, you're on your on, I'm only putting my dotfiles up here because it's ez as fuck to copy them to new machines
 
 -----
 
@@ -9,17 +10,18 @@ These are my dotfiles from my laptop, It might have some personal details, plz n
 Changes:
 * [rofi](https://github.com/DaveDavenport/rofi) vs dmenu
 * [i3blocks](https://github.com/vivien/i3blocks) vs i3bar
-
-You may also need the [Awesome font](https://github.com/FortAwesome/Font-Awesome) for i3blocks to show certain icons properly.
+* [Awesome font](https://github.com/FortAwesome/Font-Awesome) i3blocks font.
 
 ### i3blocks
 
-I've got a decent amount of custom blocks, stolen from various other people (thanks iownall555), and from i3blocks-contrib, i3-blocks-contrib and others.
+I've stolen from a bunch of projects, hard to remember what ones are from where.
 
 Active blocks:
 * Vultr Balance (iownall555's script, but I fixed it to show proper balance)
 
 * Weather (Melbourne, Australia)
+
+* Screen brightness
 
 * RAM
 * HDD Space
@@ -38,8 +40,7 @@ Active blocks:
 ### zsh stuffs
 
 Custom zsh to make it run a 50:50 chance of either a quote from hackers, or ShaggyTwoDope's quotes from #linuxmasterrace
-
-Default boring theme, until I can find something better, with the plugins to add some basic functionality and make it seem more like fish :)
+I seriously dont know why Im using zsh, I pretty much had the exact same setup in fish before.
 
 ## Screenshots
 
@@ -50,22 +51,15 @@ Default boring theme, until I can find something better, with the plugins to add
 
 ## Folder Linking
 
-Because I'm too lazy to do something with `ln`, I'll just copy files over manually.
-
-Contents of the `blocks` folder goes into `/user/share/i3blocks`
-
-Contents of the `i3` folder goes into `/home/user/.i3/`
-
 Contents of the `config` folder go into `/home/user/.config/`
 
-.zshrc just stays in ~
+The others are common sense
 
 ## Requirements
 
 
 [Ponymix](https://github.com/falconindy/ponymix), I compiled it.
 
-[fonts-font-awesome](http://fontawesome.io/)
 
 i3 and i3blocks
 
